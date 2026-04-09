@@ -1,0 +1,1 @@
+# schema-patterns-for-ai-retrieval
