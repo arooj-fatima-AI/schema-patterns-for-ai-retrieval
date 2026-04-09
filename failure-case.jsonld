@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://example.com/#person",
+      "name": "Arooj Fatima",
+      "jobTitle": "SEO Expert",
+      "url": "https://randomsite.com",
+      "sameAs": [
+        "https://linkedin.com/in/arooj-fatima",
+        "https://twitter.com/arooj_seo"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://anotherexample.com/#person",
+      "name": "Arooj Fatima",
+      "jobTitle": "Digital Marketer",
+      "url": "https://differentprofile.com",
+      "sameAs": [
+        "https://linkedin.com/in/arooj-fatima-marketing"
+      ]
+    }
+  ]
+}
