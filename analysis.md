@@ -48,3 +48,54 @@ AI systems evaluate:
 - structure
 - consistency
 - authority signals
+
+---
+
+## Failure Case: Entity Collision
+
+### Problem
+
+This schema appears valid:
+- Uses correct structure
+- Passes validation
+- Includes multiple Person entities
+
+However, it creates **entity ambiguity**.
+
+### Issues
+
+- Same name used for multiple entities
+- No disambiguation signals
+- Conflicting roles (SEO Expert vs Digital Marketer)
+- No canonical identity reference
+- No connection between entities
+
+### Result
+
+AI systems cannot determine:
+- Which entity is authoritative
+- Whether these are the same person or different individuals
+
+### Outcome
+
+- Reduced retrieval confidence
+- Possible misattribution
+- Entity fragmentation
+
+### Key Insight
+
+Schema failure is not about syntax.
+
+It is about:
+- ambiguity
+- conflict
+- lack of identity resolution
+
+### Conclusion
+
+This schema:
+- passes validators  
+- fails retrieval systems  
+
+This is the difference between:
+**markup correctness vs retrieval intelligence**
